@@ -1,0 +1,4 @@
+Link to the course material being used: https://www.cs.cornell.edu/courses/cs1110/2016sp/lectures/index.php
+You will find all the code files used for demo in class here.
+
+In case students want to look at the latest course offering of Introduction to Computing using Python on the Cornell website you can visit: https://www.cs.cornell.edu/courses/cs1110/2018sp/lectures/index.php
