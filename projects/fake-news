@@ -1,0 +1,55 @@
+import random
+
+# statements that the generator can use to make fake headlines 
+statments = [
+    "Scientists discover a new species of bird that kills with its eyes",
+    "Bookstore owner finds rare first edition book worth billions",
+    "Nishi is the best place to visit not in Japan but in the world",
+    "Sustainable energy sources are cheaper but companies don't want you to know",
+    "New technology promises to revolutionize eye care",
+    "Local community comes together to fight and defend their heritage",
+    "Art exhibition showcases works from emerging artists that were once disabled",
+
+]
+
+actions = [
+    "announces",
+    "reveals",
+    "uncovers",
+    "launches",
+    "discovers",
+    "introduces",
+    "presents",
+    "unveils",
+    "showcases",
+    "celebrates",
+]
+
+landmarks_or_places = [
+    "Cafe",
+    "Great Wall of China",
+    "Pyramids of Giza",
+    "Ganga River",
+    "Taj Mahal",
+    "Local Trains in mumbai"
+]
+
+#Headline generator function
+while True:
+    def generate_headline():
+        statement = random.choice(statments)
+        action = random.choice(actions)
+        landmark_or_place = random.choice(landmarks_or_places)
+        headline = f"{statement} {action} at {landmark_or_place}"
+        return headline
+
+    # Generate and print a fake news headline
+    fake_headline = generate_headline()
+    print(fake_headline)
+
+    user_input = input("Do you want to generate another headline? (yes/no): ").strip().lower()
+    if user_input != 'yes':
+        break
+
+#Bye
+print("Thank you for using the fake news headline generator!")
