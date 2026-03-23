@@ -1,3 +1,14 @@
+# 🎯 Now the REAL question: Should YOU focus on this?
+# ❌ This is NOT your priority
+
+# This code is:
+
+# DevOps-style scripting
+# Build automation
+# System-level scripting
+
+# 👉 Useful, but NOT core for data roles
+
 import os
 import json
 import shutil
