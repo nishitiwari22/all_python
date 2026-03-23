@@ -16,6 +16,11 @@ fahrenheit = (celsius * 9/5) + 32
 
 print('%2f Celsius is : - %0.2f Fahrenheit' %(celsius, fahrenheit) )
 
+How you can explain in interview:
+
+# "The first line converts Celsius to Fahrenheit using the standard formula.
+# The second line prints the result using old-style string formatting, where %f is used for floats and .2f limits the decimal precision. In modern Python, I would prefer using f-strings for better readability."
+
 # c) Write a python program for Sum of squares of first n natural numbers.
 
 # Solution:
