@@ -1,7 +1,19 @@
 # Q1 a:Write a python program to convert Celsius to Fahrenheit.
 
 celsius = float(input("Enter temperature in celsius: -"))
+
+# This converts temperature from Celsius → Fahrenheit.
 fahrenheit = (celsius * 9/5) + 32
+
+# This uses old-style string formatting (% formatting).
+
+# 🔍 Breakdown:
+# 🧩 %2f
+# %f → float (decimal number)
+# 2 → minimum width (not very important here)
+
+# 👉 Prints celsius as a float
+
 print('%2f Celsius is : - %0.2f Fahrenheit' %(celsius, fahrenheit) )
 
 # c) Write a python program for Sum of squares of first n natural numbers.
